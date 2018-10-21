@@ -1,10 +1,6 @@
-#------------------------------------------
-#---------------Python 3.7.0---------------
-#-----------------Source:------------------
-#https://github.com/AlexRomantsov/logarithm
-#------------------------------------------
-
 def log(number, base):
+	'''function to find the logarithm
+https://github.com/AlexRomantsov/logarithm'''
 	number, base = float(number), float(base)
 	result = 0.0
 	while(number >= base):
